@@ -1,11 +1,11 @@
-const { default: Hero } = require('./components/Hero');
-const { default: Navbar } = require('./components/Navbar');
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
-<Navbar/>
-<Hero/>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
